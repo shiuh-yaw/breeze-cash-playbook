@@ -155,6 +155,12 @@ const TechnicalSpecs = () => {
       description: 'Native mobile app integration',
       features: ['Mobile payments', 'Biometric auth', 'Push notifications'],
       documentation: 'Platform-specific guides'
+    },
+    {
+      platform: 'API Documentation',
+      description: 'Comprehensive REST API for all payment operations',
+      features: ['Pay-in/Pay-out APIs', 'Webhook management', 'Customer management', 'Dispute handling'],
+      documentation: 'Complete API reference at docs.breeze.cash'
     }
   ];
 
