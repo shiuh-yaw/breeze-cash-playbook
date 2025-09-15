@@ -1,6 +1,6 @@
 # Breeze Cash Playbook
 
-A comprehensive Product Requirements Document and Strategic Playbook for Breeze Cash - AI-Powered Gaming Payments Platform.
+A comprehensive Product Requirements Document and Strategic Playbook for Breeze Cash - AI-Powered Payment Platform.
 
 ## Development
 

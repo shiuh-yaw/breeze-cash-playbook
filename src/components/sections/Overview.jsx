@@ -95,7 +95,7 @@ const Overview = () => {
       <div>
         <h1 className="text-4xl font-bold text-foreground mb-4">Breeze Cash Product Playbook</h1>
         <p className="text-xl text-muted-foreground mb-6">
-          Comprehensive Product Requirements Document and Strategic Roadmap for AI-powered gaming payments platform.
+          Comprehensive Product Requirements Document and Strategic Roadmap for AI-powered payment platform.
         </p>
         
         <div className="flex flex-wrap gap-2 mb-6">
@@ -196,7 +196,7 @@ const Overview = () => {
               <h4 className="font-semibold mb-3">About Breeze Cash</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>• <strong>Founded:</strong> 2022 by Stripe alumni</li>
-                <li>• <strong>Focus:</strong> AI-powered gaming payments platform</li>
+                <li>• <strong>Focus:</strong> AI-powered payment platform</li>
                 <li>• <strong>Business Model:</strong> Merchant of Record</li>
                 <li>• <strong>Scale:</strong> $1B+ processed annually</li>
                 <li>• <strong>Backing:</strong> Sequoia Capital, Multicoin Capital</li>
