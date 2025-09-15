@@ -88,13 +88,6 @@ const Navigation = ({ activeSection, setActiveSection }) => {
             })}
           </ul>
 
-          {/* Footer */}
-          <div className="absolute bottom-6 left-6 right-6">
-            <div className="text-xs text-blue-200 text-center">
-              <p>AI-Powered Gaming Payments</p>
-              <p className="mt-1">Built by Stripe Alumni</p>
-            </div>
-          </div>
         </div>
       </nav>
     </>
