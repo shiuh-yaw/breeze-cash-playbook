@@ -15,77 +15,77 @@ const Overview = () => {
   const keyMetrics = [
     {
       icon: TrendingUp,
-      title: 'Market Growth',
-      value: '8.7%',
-      subtitle: 'CAGR',
-      description: 'Gaming market growth through 2030'
+      title: 'Payment Methods',
+      value: '10+',
+      subtitle: 'Supported',
+      description: 'Card, crypto, and digital wallets'
     },
     {
       icon: DollarSign,
-      title: 'Target Revenue',
-      value: '$15M',
-      subtitle: 'ARR',
-      description: 'Within 12 months across 4 opportunities'
+      title: 'Integration',
+      value: 'Single',
+      subtitle: 'API',
+      description: 'One integration for all payment methods'
     },
     {
       icon: Globe,
-      title: 'Global Reach',
-      value: '10+',
-      subtitle: 'Countries',
-      description: 'Initial market coverage'
+      title: 'Global Coverage',
+      value: 'Multi',
+      subtitle: 'Currency',
+      description: 'Fiat and cryptocurrency support'
     },
     {
       icon: Shield,
-      title: 'AI-Powered',
-      value: 'Fraud',
-      subtitle: 'Prevention',
-      description: 'Advanced security framework'
+      title: 'Merchant of Record',
+      value: 'Full',
+      subtitle: 'Compliance',
+      description: 'Risk and regulatory management'
     }
   ];
 
   const strategicPillars = [
     {
-      icon: Gamepad2,
-      title: 'Gaming Focus',
-      description: 'Specialized payment solutions for gaming industry'
+      icon: DollarSign,
+      title: 'Unified Payments',
+      description: 'Single integration for card and crypto payments'
+    },
+    {
+      icon: Shield,
+      title: 'Merchant of Record',
+      description: 'Full risk, compliance, and dispute management'
     },
     {
       icon: Zap,
-      title: 'AI-Powered',
-      description: 'Advanced fraud detection and prevention'
+      title: 'Hosted Solution',
+      description: 'Simple redirect-based payment flow'
     },
     {
-      icon: Users,
-      title: 'Merchant of Record',
-      description: 'Full compliance and liability management'
-    },
-    {
-      icon: Target,
-      title: 'Stablecoin Integration',
-      description: 'Seamless global payments with crypto'
+      icon: Globe,
+      title: 'Multi-Currency',
+      description: 'Support for fiat and multiple cryptocurrencies'
     }
   ];
 
   const opportunities = [
     {
-      title: 'Web3 Gaming Payments',
-      description: 'NFT checkout, play-to-earn payroll, cross-chain payments',
-      target: '$20M ARR'
+      title: 'E-commerce Integration',
+      description: 'Card and crypto payments for online stores',
+      target: 'Hosted Pages'
     },
     {
-      title: 'Creator Economy Tools',
-      description: 'Tipping, subscriptions, merchandise sales for streamers',
-      target: '$10M ARR'
+      title: 'Mobile App Payments',
+      description: 'In-app purchases with iOS integration',
+      target: 'Single API'
     },
     {
-      title: 'Geographic Expansion',
-      description: 'Southeast Asia and Latin America market entry',
-      target: '$15M ARR'
+      title: 'Subscription Services',
+      description: 'Recurring payment management',
+      target: 'Automated'
     },
     {
-      title: 'DeFi Treasury Services',
-      description: 'Yield-generating services for gaming companies',
-      target: '$5M ARR'
+      title: 'Global Payouts',
+      description: 'User withdrawals and transfers',
+      target: 'Multi-Currency'
     }
   ];
 
@@ -95,14 +95,14 @@ const Overview = () => {
       <div>
         <h1 className="text-4xl font-bold text-foreground mb-4">Breeze Cash Product Playbook</h1>
         <p className="text-xl text-muted-foreground mb-6">
-          Comprehensive Product Requirements Document and Strategic Roadmap for AI-powered gaming payments platform.
+          Comprehensive Product Requirements Document and Strategic Roadmap for unified payment platform supporting both card and cryptocurrency transactions.
         </p>
         
         <div className="flex flex-wrap gap-2 mb-6">
-          <Badge variant="default">Gaming Payments</Badge>
-          <Badge variant="secondary">AI-Powered Fraud Prevention</Badge>
+          <Badge variant="default">Unified Payments</Badge>
           <Badge variant="secondary">Merchant of Record</Badge>
-          <Badge variant="secondary">Stablecoin Integration</Badge>
+          <Badge variant="secondary">Hosted Solution</Badge>
+          <Badge variant="secondary">Multi-Currency Support</Badge>
         </div>
       </div>
 
@@ -137,9 +137,9 @@ const Overview = () => {
         </CardHeader>
         <CardContent>
           <p className="text-muted-foreground mb-4">
-            This playbook outlines Breeze Cash's strategic expansion within the gaming payments ecosystem, 
-            leveraging AI-powered fraud prevention and stablecoin integration to capture high-growth opportunities. 
-            The analysis identifies four immediate opportunities with combined revenue potential of $50M ARR within 24 months.
+            This playbook outlines Breeze Cash's comprehensive payment platform that unifies card and cryptocurrency 
+            transactions through a single integration. As a Merchant of Record, Breeze Cash handles risk management, 
+            compliance, and disputes while providing a simple hosted payment solution for businesses across multiple industries.
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6">

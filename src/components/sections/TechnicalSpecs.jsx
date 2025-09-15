@@ -14,147 +14,147 @@ import {
 const TechnicalSpecs = () => {
   const architectureComponents = [
     {
-      name: 'API Gateway',
-      description: 'RESTful API with GraphQL support for flexible data querying',
-      technology: 'Node.js, Express, Apollo GraphQL',
-      scalability: '10,000+ requests/second'
+      name: 'Hosted Payment Pages',
+      description: 'Secure payment interface handling card and crypto transactions',
+      technology: 'Web-based hosted solution',
+      scalability: 'Cloud-native infrastructure'
     },
     {
-      name: 'Payment Engine',
-      description: 'Core payment processing with multi-chain crypto support',
-      technology: 'Go, Redis, PostgreSQL',
-      scalability: '1,000+ transactions/second'
+      name: 'Payment API',
+      description: 'RESTful API for creating payment pages and managing transactions',
+      technology: 'HTTPS REST API with webhook notifications',
+      scalability: 'High availability endpoints'
     },
     {
-      name: 'AI Fraud Detection',
-      description: 'Machine learning models for real-time fraud prevention',
-      technology: 'Python, TensorFlow, Apache Kafka',
-      scalability: 'Real-time inference <100ms'
+      name: 'Merchant of Record',
+      description: 'Risk management, compliance, and dispute handling service',
+      technology: 'Integrated compliance infrastructure',
+      scalability: 'Global regulatory coverage'
     },
     {
-      name: 'Blockchain Integration',
-      description: 'Multi-chain support for Web3 gaming payments',
-      technology: 'Web3.js, Ethers.js, Solana SDK',
-      scalability: 'Cross-chain transactions'
+      name: 'Multi-Currency Support',
+      description: 'Card payments, digital wallets, and cryptocurrency processing',
+      technology: 'Unified payment processing engine',
+      scalability: 'Multiple payment method support'
     }
   ];
 
   const apiEndpoints = [
     {
       method: 'POST',
-      endpoint: '/api/v1/payments',
-      description: 'Create a new payment transaction',
-      authentication: 'API Key + HMAC',
-      rateLimit: '1000/hour'
+      endpoint: '/v1/api/payment-page',
+      description: 'Create a hosted payment page',
+      authentication: 'HTTP Basic Auth',
+      rateLimit: 'Standard limits'
     },
     {
       method: 'GET',
-      endpoint: '/api/v1/payments/{id}',
-      description: 'Retrieve payment status and details',
-      authentication: 'API Key',
-      rateLimit: '5000/hour'
+      endpoint: '/v1/api/payment-page/{id}',
+      description: 'Retrieve payment page status and details',
+      authentication: 'HTTP Basic Auth',
+      rateLimit: 'Standard limits'
     },
     {
       method: 'POST',
-      endpoint: '/api/v1/nft/checkout',
-      description: 'Process NFT purchase with crypto payments',
-      authentication: 'API Key + HMAC',
-      rateLimit: '500/hour'
-    },
-    {
-      method: 'POST',
-      endpoint: '/api/v1/creators/tip',
-      description: 'Process tip payment to content creator',
-      authentication: 'API Key + HMAC',
-      rateLimit: '2000/hour'
+      endpoint: '/v1/api/payout',
+      description: 'Process user withdrawal or transfer',
+      authentication: 'HTTP Basic Auth',
+      rateLimit: 'Standard limits'
     },
     {
       method: 'GET',
-      endpoint: '/api/v1/analytics/dashboard',
-      description: 'Retrieve payment analytics and metrics',
-      authentication: 'API Key',
-      rateLimit: '100/hour'
+      endpoint: '/v1/api/customer/{id}',
+      description: 'Retrieve customer information and history',
+      authentication: 'HTTP Basic Auth',
+      rateLimit: 'Standard limits'
+    },
+    {
+      method: 'POST',
+      endpoint: '/webhook',
+      description: 'Receive payment status notifications',
+      authentication: 'Webhook signature',
+      rateLimit: 'Event-driven'
     }
   ];
 
   const securityFeatures = [
     {
-      feature: 'AI-Powered Fraud Detection',
-      description: 'Machine learning models trained on gaming transaction patterns',
-      implementation: 'Real-time scoring with <100ms latency',
-      compliance: 'PCI DSS Level 1'
+      feature: 'Merchant of Record Protection',
+      description: 'Full liability coverage for chargebacks and disputes',
+      implementation: 'Integrated risk management service',
+      compliance: 'PCI DSS compliant'
     },
     {
-      feature: 'Multi-Factor Authentication',
-      description: 'TOTP, SMS, and hardware key support for admin access',
-      implementation: 'OAuth 2.0 with PKCE',
-      compliance: 'SOC 2 Type II'
+      feature: 'Hosted Payment Security',
+      description: 'Secure payment pages with encrypted data transmission',
+      implementation: 'TLS encryption and secure hosting',
+      compliance: 'Industry standard security'
     },
     {
-      feature: 'End-to-End Encryption',
-      description: 'AES-256 encryption for all sensitive data',
-      implementation: 'TLS 1.3 for transport, AES-256-GCM at rest',
-      compliance: 'GDPR, CCPA'
+      feature: 'Multi-Payment Method Security',
+      description: 'Secure processing for cards, wallets, and cryptocurrency',
+      implementation: 'Unified security framework',
+      compliance: 'Cross-method protection'
     },
     {
-      feature: 'Blockchain Security',
-      description: 'Multi-signature wallets and smart contract audits',
-      implementation: 'Hardware security modules (HSM)',
-      compliance: 'Crypto compliance frameworks'
+      feature: 'Compliance Management',
+      description: 'Regulatory compliance across multiple jurisdictions',
+      implementation: 'Automated compliance monitoring',
+      compliance: 'Global regulatory coverage'
     }
   ];
 
   const performanceMetrics = [
     {
+      metric: 'Payment Page Load Time',
+      target: '<3s',
+      current: 'Optimized',
+      status: 'Excellent'
+    },
+    {
       metric: 'API Response Time',
-      target: '<200ms',
-      current: '150ms avg',
+      target: '<500ms',
+      current: 'Fast',
       status: 'Excellent'
     },
     {
       metric: 'System Uptime',
-      target: '99.95%',
-      current: '99.97%',
+      target: '99.9%+',
+      current: 'High availability',
       status: 'Excellent'
     },
     {
-      metric: 'Transaction Throughput',
-      target: '1000 TPS',
-      current: '1200 TPS',
-      status: 'Excellent'
-    },
-    {
-      metric: 'Fraud Detection Accuracy',
-      target: '>99%',
-      current: '99.3%',
+      metric: 'Payment Success Rate',
+      target: '>95%',
+      current: 'High conversion',
       status: 'Excellent'
     }
   ];
 
   const integrationSDKs = [
     {
-      platform: 'JavaScript/TypeScript',
-      description: 'Web and Node.js applications',
-      features: ['Payment processing', 'Webhook handling', 'Analytics'],
-      documentation: 'Complete with examples'
+      platform: 'HTTP API',
+      description: 'RESTful API for payment page creation and management',
+      features: ['Payment page creation', 'Status retrieval', 'Customer management'],
+      documentation: 'Complete API reference'
     },
     {
-      platform: 'Python',
-      description: 'Backend services and data analytics integration',
-      features: ['Payment processing', 'Fraud detection APIs', 'Analytics dashboard'],
-      documentation: 'Complete with examples'
+      platform: 'Webhook Integration',
+      description: 'Real-time payment status notifications',
+      features: ['Payment notifications', 'Status updates', 'Event handling'],
+      documentation: 'Webhook implementation guide'
     },
     {
-      platform: 'React/Next.js',
-      description: 'Frontend web applications and admin dashboards',
-      features: ['Payment UI components', 'Analytics widgets', 'Admin panels'],
-      documentation: 'Component library included'
+      platform: 'Hosted Payment Pages',
+      description: 'Secure payment interface for end users',
+      features: ['Card payments', 'Crypto payments', 'Digital wallets'],
+      documentation: 'Integration examples'
     },
     {
-      platform: 'Mobile (iOS/Android)',
-      description: 'Native mobile app integration',
-      features: ['Mobile payments', 'Biometric auth', 'Push notifications'],
-      documentation: 'Platform-specific guides'
+      platform: 'Mobile Integration',
+      description: 'iOS In-App Purchase and mobile payment support',
+      features: ['iOS integration', 'Mobile optimization', 'App Store compliance'],
+      documentation: 'Mobile-specific guides'
     }
   ];
 
