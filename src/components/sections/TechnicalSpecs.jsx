@@ -139,16 +139,16 @@ const TechnicalSpecs = () => {
       documentation: 'Complete with examples'
     },
     {
-      platform: 'Unity',
-      description: 'Game engine integration for Unity games',
-      features: ['In-game purchases', 'NFT marketplace', 'Player wallets'],
-      documentation: 'Gaming-specific guides'
+      platform: 'Python',
+      description: 'Backend services and data analytics integration',
+      features: ['Payment processing', 'Fraud detection APIs', 'Analytics dashboard'],
+      documentation: 'Complete with examples'
     },
     {
-      platform: 'Unreal Engine',
-      description: 'Blueprint and C++ support for Unreal games',
-      features: ['Payment flows', 'Crypto integration', 'Analytics'],
-      documentation: 'Video tutorials included'
+      platform: 'React/Next.js',
+      description: 'Frontend web applications and admin dashboards',
+      features: ['Payment UI components', 'Analytics widgets', 'Admin panels'],
+      documentation: 'Component library included'
     },
     {
       platform: 'Mobile (iOS/Android)',
